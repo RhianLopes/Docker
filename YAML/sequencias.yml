@@ -1,0 +1,14 @@
+roles: #lista com dois valores
+  - webserver
+  - database 
+
+# - payload     #incorreto, deve ser em sequencia sem espaços em branco
+#   - bitcoin 
+#   - 
+#   - ethereum
+
+payload1:
+  - bitcoin #lista de valores no estilo block
+  - ethereum
+
+payload2: [ bitcoin, ethereum ] #lista de valores no estilo flow
