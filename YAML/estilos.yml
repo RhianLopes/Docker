@@ -1,0 +1,19 @@
+# Estilo Block (recomendado)
+
+host1: geek
+datacenter1: 
+  location: São Paulo 
+  router: 42
+roles1:
+  - web
+  - dns
+
+
+# Estilo Flow
+
+host2: "geek"
+datacenter2: { 
+  location: "São Paulo",
+  router: 42
+}
+roles2: [ web, dns ]
