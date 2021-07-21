@@ -1,0 +1,6 @@
+host: geek # um espaço após o ":" para informar valores
+datacenter1: 
+  location: São Paulo # dois espaços para informar chaves
+  router: 42
+
+datacenter2: { location: "São Paulo", router: 42 }
