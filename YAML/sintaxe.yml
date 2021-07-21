@@ -1,0 +1,7 @@
+host: geek #conjunto de chave e valor
+datacenter: #chave com dois conjuntos de chave e valor
+  location: São Paulo
+  router: 42
+roles: #lista com dois valores
+  - web
+  - dns
