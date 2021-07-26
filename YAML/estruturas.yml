@@ -1,0 +1,16 @@
+--- # determina o inicio de uma configuração (opcional)
+host: geek
+datacenter: 
+  location: São Paulo
+  router: 42
+  switch: 34
+--- # inicio de uma nova configuração
+host: geek
+datacenter: 
+  location: São Paulo
+  router: 42
+  switch: 34
+---
+- python
+- java
+- ruby
