@@ -1,13 +1,13 @@
-host: geek #o valor e chave são lidos como string 
+host: geek # o valor e chave são lidos como string 
 datacenter: 
   location: São Paulo
-  router: 42 #valor lido como inteiro
-  switch: "34\n" #valor quando não utilizados para calculos, preferivel informa-los com aspas 
-  example: '21' #a diferença entre uso de "" e '', é que nas aspas duplas é possível usar \n por exemplo
+  router: 42 # valor lido como inteiro
+  switch: "34\n" # valor quando não utilizados para calculos, preferivel informa-los com aspas 
+  example: '21' # a diferença entre uso de "" e '', é que nas aspas duplas é possível usar \n por exemplo
 roles:
   - webserver
   - database
-funcionamento:  | #exemplo de valor escalar de multiplas linhas, respeitando as linhas
+funcionamento:  | # exemplo de valor escalar de multiplas linhas, respeitando as linhas
   segunda - das 08:00 às 17:00
   terça   - das 08:00 às 17:00
   quarta  - das 08:00 às 17:00
@@ -15,7 +15,7 @@ funcionamento:  | #exemplo de valor escalar de multiplas linhas, respeitando as 
   sexta   - das 08:00 às 17:00
   sábado  - das 08:00 às 17:00
   domingo - das 08:00 às 17:00
-comentarios: > #exemplo de valor escalar de multiplas linhas, sem respeitar as linhas (em apresentação valores na mesma linha)
+comentarios: > # exemplo de valor escalar de multiplas linhas, sem respeitar as linhas (em apresentação valores na mesma linha)
   Temos alto uso de CPU
   desde 04/10/2020.
   Estamos investigando

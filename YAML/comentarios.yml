@@ -1,0 +1,8 @@
+# Configurações do host Geek
+---
+host: geek
+datacenter: 
+  location: São Paulo # Capital do estado
+  router: 42 # linhas em brancos são consideradas comentarios
+
+  switch: 34 # comentario deve possuir espaço em branco antes e depois da # 
