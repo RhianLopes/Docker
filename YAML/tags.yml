@@ -1,0 +1,13 @@
+%TAG ! tag:host:geek # maneira menos comum de uso de tags
+---
+host: geek
+datacenter:
+  location: !GEEK São Paulo
+  router: "43"
+  switch: '34'
+---
+host: geek
+datacenter:
+  location: Colorado
+  router: !!str 45 # maneira mais comum de uso de tag, str transforma o int em string como acima
+  switch: !!str 34
