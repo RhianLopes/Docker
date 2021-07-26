@@ -1,0 +1,15 @@
+# ancoras servem para armazenar e reutilizar dados
+---
+host: geek
+datacenter: 
+  location: &SP São Paulo # armazena valor São Paulo na ancora SP
+--- 
+host: geek
+datacenter: 
+  location: *SP # utiliza a ancora SP
+---
+roles: &ghost
+  - webserver
+  - database
+--- 
+roles: *ghost
